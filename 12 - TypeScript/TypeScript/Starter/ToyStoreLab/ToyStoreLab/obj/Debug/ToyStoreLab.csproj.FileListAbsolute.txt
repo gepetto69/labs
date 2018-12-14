@@ -1,0 +1,6 @@
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\bin\ToyStoreLab.dll.config
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\bin\ToyStoreLab.dll
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\bin\ToyStoreLab.pdb
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\obj\Debug\ToyStoreLab.csprojResolveAssemblyReference.cache
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\obj\Debug\ToyStoreLab.dll
+F:\Courses\USPFx\LabFiles\12 - TypeScript\TypeScript\Starter\ToyStoreLab\ToyStoreLab\obj\Debug\ToyStoreLab.pdb

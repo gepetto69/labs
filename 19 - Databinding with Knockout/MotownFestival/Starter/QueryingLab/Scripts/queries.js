@@ -1,0 +1,5 @@
+﻿$(function () {
+  //add queries here
+
+
+});

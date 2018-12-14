@@ -1,0 +1,14 @@
+﻿{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "diagnostics": true,
+    "listFiles": true
+  },
+  "exclude": [ "typings/main.d.ts", "node_modules", "typings/main" ]
+}

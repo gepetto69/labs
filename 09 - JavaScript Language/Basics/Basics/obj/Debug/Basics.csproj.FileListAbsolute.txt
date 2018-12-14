@@ -1,0 +1,6 @@
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\bin\Basics.dll.config
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\bin\Basics.dll
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\bin\Basics.pdb
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\obj\Debug\Basics.csprojResolveAssemblyReference.cache
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\obj\Debug\Basics.dll
+F:\Courses\USPFx\LabFiles\09 - JavaScript Language\Basics\Basics\obj\Debug\Basics.pdb

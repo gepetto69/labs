@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "de89b048-b3f7-402b-8604-454153464f20",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries":
+    [{
+      "groupId": "de89b048-b3f7-402b-8604-454153464f20",
+      "group": { "default": "Under Development" },
+      "title": { "default": "Documents" },
+      "description": { "default": "document data" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "ListName": "Documents",
+        "Refresh": true
+      }
+    },
+    {
+      "groupId": "de89b048-b3f7-402b-8604-454153464f20",
+      "group": { "default": "Under Development" },
+      "title": { "default": "Announcements" },
+      "description": { "default": "announcements data" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "ListName": "Announcements",
+        "Refresh": false
+      }
+    }]
+}

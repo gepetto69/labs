@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "u-2-u-list-site-permissions",
+    "libraryId": "1adb186d-1dd0-4822-858d-8a776e713451",
+    "framework": "react"
+  }
+}

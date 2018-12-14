@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "my-first-web-part-client-side-solution",
+    "id": "1a4136cb-aecb-4293-8bf6-dcd0e09f71a8",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/my-first-web-part.spapp"
+  }
+}

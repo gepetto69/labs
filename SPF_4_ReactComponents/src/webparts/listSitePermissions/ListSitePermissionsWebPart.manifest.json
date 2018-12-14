@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "bdc0bcc3-8fd6-484e-a343-c9fb92015575",
+  "alias": "ListSitePermissionsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "bdc0bcc3-8fd6-484e-a343-c9fb92015575",
+    "group": { "default": "Under Development" },
+    "title": { "default": "ListSitePermissions" },
+    "description": { "default": "This web part displays current web permissions" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ListSitePermissions"
+    }
+  }]
+}

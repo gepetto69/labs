@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "u-2-u-list-site-permissions-client-side-solution",
+    "id": "1adb186d-1dd0-4822-858d-8a776e713451",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/u-2-u-list-site-permissions.spapp"
+  }
+}

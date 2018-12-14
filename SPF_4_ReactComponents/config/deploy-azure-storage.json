@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "u-2-u-list-site-permissions",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

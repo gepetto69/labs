@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Motown Festival - Admin</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="Scripts/jquery-3.1.0.min.js"></script>
+  <script src="Scripts/knockout-2.2.1.js"></script>
+  <script src="Scripts/admin.js"></script>
+</head>
+<body>
+<div id="templatemo_wrapper">
+	
+    <div id="templatemo_header">
+    
+    	<div id="site_title">
+            <h1><a href="#" target="_parent">
+                <img src="images/templatemo_logo.png" alt="CSS Templates" />
+                <span>Motown Festival</span>
+            </a></h1>
+        </div>
+        
+	</div> <!-- end of templatemo_header -->
+    
+    <div id="templatemo_menu">
+    
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Lineup</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="#">Practical Information</a></li>
+            <li><a href="admin.html" class="current">Admin</a></li>
+        </ul>  	
+    
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_content">
+
+         <div class="content_section" data-bind="if: mode() === 'view'">
+            <h2>Stages</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr><th>Name</th><th>Capacity</th></tr>
+                </thead>
+                <tbody data-bind="foreach: stages">
+                <tr>
+                  <td><span data-bind="text: name"/></td>
+                  <td><span data-bind="text: capacity"/></td>
+                </tr>
+                </tbody>
+              </table>
+            </section>
+        
+    		<h2>Schedule</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr><th>Day</th><th>Hour</th><th>Artist</th><th>Stage</th></tr>
+                </thead>
+                <tbody data-bind="foreach: acts">
+                <tr>
+                  <td><span data-bind="text: formattedDate"/></td>
+                  <td><span data-bind="text: hour"/></td>
+                  <td><span data-bind="text: artist"/></td>
+                  <td><span data-bind="text: stage().name"/></td>
+                </tr>
+                </tbody>
+              </table>
+            </section>
+         </div>
+    
+    	 <div class="content_section" data-bind="if: mode() === 'edit'">
+            <h2>Stages</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr><th>Name</th><th>Capacity</th><th></th></tr>
+                </thead>
+                <tbody data-bind="foreach: stages">
+                <tr>
+                  <td><input data-bind="value: name" type="text"/></td>
+                  <td><input data-bind="value: capacity" type="number" min="0"/></td>
+                  <td><a data-bind="click: $root.removeStage">remove</a></td>
+                </tr>
+                </tbody>
+              </table>
+
+              <h3>New stage</h3>
+              <section>
+                <table>
+                  <tbody>
+                    <tr><td>Stage name:</td><td><input data-bind="value: newStage().name"/></td></tr>
+                    <tr><td>Stage capacity:</td><td><input data-bind="value: newStage().capacity" type="number" min="0"/></td></tr>
+                  </tbody>
+                </table>
+                <div class="button_01"><a data-bind="click: addStage" href="#">Add</a></div>
+              </section>
+            </section>
+        
+    		<h2>Schedule</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr><th>Day</th><th>Hour</th><th>Artist</th><th>Stage</th></tr>
+                </thead>
+                <tbody data-bind="foreach: acts">
+                <tr>
+                  <td><select data-bind="options: $root.availableDates, value: day, optionsText: function(item){ return dateToString(item);}"></td>
+                  <td><input data-bind="value: hour" type="time"/></td>
+                  <td><input data-bind="value: artist" type="text"/></td>
+                  <td><select data-bind="options: $root.stages, value: stage, optionsText: 'name'"></td>
+                </tr>
+                </tbody>
+              </table>
+            </section>
+         </div>
+         
+         <div id="edit" class="button_01"><a href="#" data-bind="text: modeButtonDisplay, click: changeMode"></a></div>
+    </div> <!-- end of templatemo_content -->
+    
+    <div id="templatemo_footer">
+
+        <ul class="footer_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Lineup</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="#">Practical Information</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    
+      Copyright © 1972 <a href="#">U2U</a>
+    
+    </div> <!-- end of footer -->
+
+</div> <!-- end of templatemo_wrapper -->
+
+</body>
+</html>

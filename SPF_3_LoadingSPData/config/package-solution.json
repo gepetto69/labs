@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "share-point-list-data-client-side-solution",
+    "id": "081ed434-9c82-406f-8c46-c81120232153",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-list-data.spapp"
+  }
+}
